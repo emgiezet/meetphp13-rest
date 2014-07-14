@@ -50,10 +50,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="6" selection-start="174" selection-end="174" vertical-scroll-proportion="0.33277312" vertical-offset="0" max-vertical-offset="595">
+                <state line="11" column="6" selection-start="174" selection-end="174" vertical-scroll-proportion="-7.92" vertical-offset="0" max-vertical-offset="324">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.39327732" vertical-offset="0" max-vertical-offset="595">
                   <folding />
                 </state>
               </provider>
@@ -108,15 +117,6 @@
             <entry file="file://$PROJECT_DIR$/src/MeetPHP/OAuthServerBundle/Resources/fixtures/clients.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="5" column="42" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="-8.0" vertical-offset="108" max-vertical-offset="990">
                   <folding />
                 </state>
               </provider>
@@ -180,6 +180,7 @@
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/MeetPHP/CoreBundle/DataFixtures/ORM/Defaults/LoadDog.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -585,10 +586,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1920" height="1204" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -655,13 +656,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MeetPHP/CoreBundle/Entity/Dog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="2025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MeetPHP/ApiBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="464">
@@ -964,7 +958,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="174" selection-end="174" vertical-scroll-proportion="0.33277312" vertical-offset="0" max-vertical-offset="595">
+        <state line="11" column="6" selection-start="174" selection-end="174" vertical-scroll-proportion="-7.92" vertical-offset="0" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.39327732" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
