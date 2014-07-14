@@ -1,0 +1,8 @@
+test_user1:
+    email: "test_user1@meetphp.pl"
+    username: "test_user1@meetphp.pl"
+    plain_password: test
+    firstname: Test
+    lastname: User 1
+    enabled: 1
+    single_role: ROLE_USER

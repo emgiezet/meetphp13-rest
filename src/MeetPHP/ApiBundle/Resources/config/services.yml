@@ -1,0 +1,7 @@
+parameters:
+#    meet_php_api.example.class: MeetPHP\ApiBundle\Example
+
+services:
+#    meet_php_api.example:
+#        class: %meet_php_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

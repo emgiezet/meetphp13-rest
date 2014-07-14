@@ -1,0 +1,3 @@
+FOS\OAuthServerBundle\Entity\AccessToken :
+    exclusion_policy: ALL
+    properties: ~

@@ -1,0 +1,15 @@
+dog_1:
+  name: Azor
+  owner: test_user1
+
+dog_2:
+  name: Reksio
+  owner: test_user1
+
+dog_3:
+  name: Szarik
+  owner: test_user1
+
+dog_3:
+  name: Burek
+  owner: test_user1

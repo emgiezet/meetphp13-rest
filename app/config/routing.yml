@@ -1,0 +1,26 @@
+meet_phpo_auth_server:
+    resource: "@MeetPHPOAuthServerBundle/Resources/config/routing.yml"
+    prefix:   /
+
+meet_php_core:
+    resource: "@MeetPHPCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+meet_php_api:
+    resource: "@MeetPHPApiBundle/Resources/config/routing.yml"
+    type: rest
+    prefix:   /api
+
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+o_auth_server:
+    resource: "@MeetPHPOAuthServerBundle/Resources/config/routing.yml"
+    prefix:   /
+
+nelmio_api_doc_index:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api_doc

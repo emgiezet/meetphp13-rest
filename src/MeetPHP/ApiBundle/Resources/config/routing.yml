@@ -1,0 +1,10 @@
+
+meet_php_api_user:
+    type:     rest
+    resource: MeetPHP\ApiBundle\Controller\UserController
+    name_prefix:  api_
+
+meet_php_api_dogs:
+    type:     rest
+    resource: MeetPHP\ApiBundle\Controller\DogsController
+    name_prefix:  api_

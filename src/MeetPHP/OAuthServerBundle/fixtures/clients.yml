@@ -1,0 +1,15 @@
+director:
+    id: 1
+    name: Aplikacja dla dyrektorówsz szkół i przedszkoli
+    random_id: 4ddcftwgv484g0s8cwgw88gsgko0sk0ko8scw8ckw0o4kssgo4
+    secret: 3bk4usqs18owwscos4oc80cwk0g4o4k8cg84skggckoooc0wsc
+    allowedGrantTypes: ['refresh_token', 'token', 'password']
+    redirectUris: ['http://www.google.com']
+
+forum-order:
+    id: 2
+    name: forum-order
+    random_id: wcdpqu3uu3kkkckk84cc8sowg8co8k844oscsos80sgk8c008
+    secret: 2b7lhthjk6skw84o88gc4s08oo0sc8kk0k0wwc8kk88gg040k
+    allowedGrantTypes: ['refresh_token', 'token', 'password']
+    redirectUris: ['http://www.google.com']

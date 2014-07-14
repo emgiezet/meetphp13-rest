@@ -1,0 +1,7 @@
+meetphp:
+    id: 1
+    name: MeetPHP = example
+    random_id: 4ddcftwgv484g0s8cwgw88gsgko0sk0ko8scw8ckw0o4kssgo4
+    secret: 3bk4usqs18owwscos4oc80cwk0g4o4k8cg84skggckoooc0wsc
+    allowedGrantTypes: ['refresh_token', 'token', 'password']
+    redirectUris: ['http://www.meetphp.pl']

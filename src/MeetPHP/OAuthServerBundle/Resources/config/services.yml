@@ -1,0 +1,23 @@
+services:
+    meetphp_o_auth_server.authorize.form_type:
+        class: MeetPHP\OAuthServerBundle\Form\Type\AuthorizeFormType
+        tags:
+            - { name: form.type,  alias: meetphp_o_auth_server_auth }
+
+    meetphp_o_auth_server.authorize.form:
+        class:  Symfony\Component\Form\Form
+        factory_method: createNamed
+        factory_service: form.factory
+        public: true
+        arguments: [meetphp_o_auth_server_authorize_form, meetphp_o_auth_server_auth]
+
+    meetphp_o_auth_server.authorize.form_handler:
+        class: MeetPHP\OAuthServerBundle\Form\Handler\AuthorizeFormHandler
+        scope: request
+        arguments: [@meetphp_o_auth_server.authorize.form, @request, @security.context, @fos_oauth_server.server]
+
+    oauth_event_listener:
+        class:  MeetPHP\OAuthServerBundle\EventListener\OAuthEventListener
+        tags:
+            - { name: kernel.event_listener, event: fos_oauth_server.pre_authorization_process, method: onPreAuthorizationProcess }
+            - { name: kernel.event_listener, event: fos_oauth_server.post_authorization_process, method: onPostAuthorizationProcess }

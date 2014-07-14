@@ -1,0 +1,6 @@
+at1:
+    client_id: meetphp
+    user_id: test_user1
+    token: HXJfjV5sQRdbchsf3VwYRpZS
+    expires_at: 2020-12-12
+    scope: password

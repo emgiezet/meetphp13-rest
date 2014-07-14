@@ -1,0 +1,48 @@
+jms_security_extra:
+    secure_all_services: false
+    expressions: true
+
+security:
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username_email
+
+    encoders:
+        FOS\UserBundle\Model\UserInterface: sha512
+
+    firewalls:
+        dev:
+            pattern:  ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        notsecure_api:
+            pattern: ^/api/dogs
+            fos_oauth: false
+            stateless: true
+            security: false
+        api:
+            pattern: ^/api/(.*)
+            fos_oauth: true
+            stateless: true
+
+        #for oauth server
+        oauth_authorize:
+            pattern: ^/oauth/v2/auth
+            form_login:
+                provider: fos_userbundle
+                check_path: /oauth/v2/auth_login_check
+                login_path: /oauth/v2/auth_login
+            anonymous: true
+            logout:
+                path: /oauth/v2/auth_logout
+                target: /api
+
+        oauth_token:
+            pattern: ^/oauth/v2/token
+            security: false
+
+    access_control:
+        - { path: ^/oauth/v2/auth_login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api_doc$, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api, roles: [ IS_AUTHENTICATED_FULLY ] }
+        - { path: ^/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
